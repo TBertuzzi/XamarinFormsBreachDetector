@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             Padding="0,60,0,0"
+             x:Class="XamarinFormsBreachDetector.MainPage">
+    <StackLayout>
+        <Label Text="Informações de Segurança" FontSize="Title"/>
+        <Label x:Name="lblRoot" />
+        <Label x:Name="lblVirtual" />
+        <Label x:Name="lblDebug" />
+        <Label x:Name="lblStore" />
+        <Label x:Name="lblAutenticacao" />
+    </StackLayout>
+</ContentPage>
